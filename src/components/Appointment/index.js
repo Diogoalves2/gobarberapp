@@ -32,7 +32,7 @@ export default function Appointment({ data, onCancel }) {
       </Left>
 
       {data.cancelable && !data.canceled_at && (
-        <TouchableOpacity OnPress={onCancel}>
+        <TouchableOpacity onPress={onCancel}>
           <Icon name="event-busy" size={20} color="#f64c75" />
         </TouchableOpacity>
       )}
