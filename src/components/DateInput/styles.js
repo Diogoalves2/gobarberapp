@@ -4,7 +4,7 @@ export const Container = styled.View`
   margin: 60px 0 30px;
 `;
 
-export const Datebutton = styled.TouchableOpacity`
+export const DateButton = styled.TouchableOpacity`
   padding: 0 15px;
   height: 46px;
   background: rgba(0, 0, 0, 0.1);
